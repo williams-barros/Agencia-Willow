@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   box-sizing: border-box;
   width: 100%;
-  overflow: hidden !important;
+  overflow-x: hidden !important;
  
 }
 form{
