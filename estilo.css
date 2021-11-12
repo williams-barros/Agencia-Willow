@@ -292,7 +292,17 @@ footer {
   }
 
 }
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 550px) {
+  .carta {
+    height: 300px;
+    width: 400px; 
+    margin: auto;
+    border-radius: 7px 7px 7px 7px;
+    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    
+  }
   #letras {
     bottom: 50px;
   }
@@ -311,5 +321,101 @@ footer {
   .flexcontainer {
     height: 2500px;
   }
-}
+  nav .logo {
+    float: none;
+    width: 50%;
+    justify-content: center;
+    font-size: 30px;
+  }
+  nav {
+    position: fixed;
+    width: 90%;
+  }
+  nav .links {
+    float: none;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    right: 0;
+    top: 70px;
+    bottom: 100%;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+  }
+  .derechos{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+  nav .links a {
+    font-size: 20px;
+  }
+  nav :checked ~ .links {
+    bottom: 0;
+  }
+  nav .icon-burger {
+    display: block;
+  }
+  nav :checked ~ .icon-burger .line:nth-child(1) {
+    transform: translateY(10px) rotate(225deg);
+  }
+  nav :checked ~ .icon-burger .line:nth-child(3) {
+    transform: translateY(-10px) rotate(-225deg);
+  }
 
+  nav :checked ~ .icon-burger .line:nth-child(2) {
+    opacity: 0;
+  }
+
+  nav .links a {
+    color: #fff;
+    text-decoration: none;
+    border: none;
+  }
+  .imagenes{
+    width: 30px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  #letras {
+    bottom: 50px;
+  }
+  #letras2 {
+    bottom: 50px;
+  }
+  #letras3 {
+    bottom: 50px;
+  }
+  #tamaño {
+    height: 700px;
+  }
+  #tamaño {
+    height: 500px;
+  }
+  .flexcontainer {
+    height: 2500px;
+  }
+  .nav .logo {
+    float: left;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    font-size: 100px;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+  }
+}
