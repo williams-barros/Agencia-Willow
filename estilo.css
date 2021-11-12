@@ -4,6 +4,7 @@ html, body {
   box-sizing: border-box;
   width: 100%;
   overflow-x: hidden !important;
+  overflow-y: visible !important;
  
 }
 form{
