@@ -126,6 +126,10 @@ body {
     background-color: #79b0a1;
   }
   @media screen and (max-width: 550px) {
+    nav {
+      position: fixed;
+      width: 90%;
+    }
     .carta {
       height: 300px;
       width: 400px; 
@@ -185,6 +189,10 @@ body {
 
   }
   @media screen and (max-width: 450px) {
+    nav {
+      position: fixed;
+      width: 90%;
+    }
     .carta {
       height: 300px;
       width: 300px; 

@@ -296,6 +296,10 @@ footer {
   body{
     width: 100%;
   }
+  nav {
+    position: fixed;
+    width: 90%;
+  }
   .carta {
     height: 300px;
     width: 400px; 
@@ -405,7 +409,7 @@ footer {
 @media screen and (max-width: 450px) {
   nav {
     position: fixed;
-    width: 90%;
+    width: 85%;
   }
   #letras {
     bottom: 50px;
