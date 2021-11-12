@@ -293,6 +293,9 @@ footer {
 
 }
 @media screen and (max-width: 550px) {
+  body{
+    width: 100%;
+  }
   .carta {
     height: 300px;
     width: 400px; 
@@ -314,12 +317,22 @@ footer {
   }
   #tamaño {
     height: 700px;
+    width: 100%;
   }
   #tamaño {
     height: 500px;
+    width: 100%;
   }
   .flexcontainer {
     height: 2500px;
+    width: 100%;
+  }
+  nav .icon-burger {
+    display: none;
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    transform: translateY(-50%);
   }
   nav .logo {
     float: none;
@@ -329,7 +342,7 @@ footer {
   }
   nav {
     position: fixed;
-    width: 90%;
+    width: 100%;
   }
   nav .links {
     float: none;
@@ -407,6 +420,7 @@ footer {
   }
   .flexcontainer {
     height: 2500px;
+    width: 100%;
   }
   .nav .logo {
     float: left;
@@ -418,4 +432,5 @@ footer {
     color: #fff;
     font-family: 'Dancing Script', cursive;
   }
+  
 }
