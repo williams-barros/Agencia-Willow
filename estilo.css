@@ -403,6 +403,10 @@ footer {
   }
 }
 @media screen and (max-width: 450px) {
+  nav {
+    position: fixed;
+    width: 90%;
+  }
   #letras {
     bottom: 50px;
   }
