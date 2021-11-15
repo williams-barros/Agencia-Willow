@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -85,27 +85,27 @@
         <form id="msform">
             <!-- progressbar -->
             <ul id="progressbar">
-              <li class="active">Crea Tu Cuenta</li>
-              <li>Datos Personales</li>
-            </ul>
+              
+              </ul>
             <!-- fieldsets -->
             <fieldset>
-              <h2 class="fs-title">CREA TU CUENTA</h2>
-              <h3 class="fs-subtitle">Paso 1</h3>
-              <input type="text" name="email" placeholder="E-mail" />
-              <input type="password" name="pass" placeholder="Contraseña" />
-              <input type="password" name="cpass" placeholder="Confirma Contraseña" />
-              <input type="button" name="next" class="next action-button" value="Siguiente" />
-            </fieldset>
-            <fieldset>
-              <h2 class="fs-title">DATOS PERSONALES</h2>
-              <h3 class="fs-subtitle">Paso 2</h3>
-              <input type="text" name="fname" placeholder="Nombre" />
-              <input type="text" name="lname" placeholder="Apellido" />
-              <input type="text" name="phone" placeholder="Telefono" />
-              <textarea name="address" placeholder="Direccion"></textarea>
-              <input type="button" name="previous" class="previous action-button" value="Atras" />
-              <input type="submit" name="submit" class="submit action-button" value="Enviar" />
+             <h2 class="fs-title"> <strong>CREA TU CUENTA</strong></h2>
+              <input type="text" name="email" placeholder="E-mail"  required/>
+              <input type="password" name="pass" placeholder="Contraseña" required/>
+              <input type="password" name="cpass" placeholder="Confirma Contraseña" required />
+            
+            <br></br>
+              <input type="text" name="fname" placeholder="Nombre" required />
+              <input type="text" name="lname" placeholder="Apellido" required/>
+              <input type="text" name="phone" placeholder="Telefono" required/>
+              <input type="text" name="address" placeholder="Direccion" required />
+              <input type="submit" onclick="hizoClick()" name="submit" class="submit action-button" value="Enviar" />
+
+             <script>
+                function hizoClick() {
+                  alert("CUENTA CREADA CON EXITO.");
+                }
+                </script>
             </fieldset>
           </form>
     

@@ -14,14 +14,13 @@ html {
 
 body {
 	font-family: montserrat, arial, verdana;
-
 }
 /*form styles*/
 #msform {
 	width: 400px;
 	margin: 50px auto;
 	text-align: center;
-	
+	position: relative;
 }
 #msform fieldset {
 	background: white;
