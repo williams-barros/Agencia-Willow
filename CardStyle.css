@@ -151,9 +151,9 @@ html, body {
       background-color: #ffffff;
     }
     .product-price-btn {
-      height: 63px;
+      height: 50px;
       width: 287px;
-      margin-top: 17px;
+      margin-top: -40px;
       position: relative;
     }
     .product-price-btn button {
@@ -187,7 +187,7 @@ html, body {
   }
   @media screen and (max-width: 450px) {
     .carta {
-      height: 300px;
+      height: 200px;
       width: 300px; 
       margin: auto;
       border-radius: 7px 7px 7px 7px;
@@ -198,21 +198,25 @@ html, body {
     }
     .product-img {
       float: left;
-      height: 300px;
+      height: 200px;
       width: 150px;
     }
 
     .producto-info {
       float: right;
-      height: 300px;
+      height: 200px;
       width: 150px;
       border-radius: 0 7px 10px 7px;
       background-color: #ffffff;
     }
+    .product-text {
+      height: 200px;
+      width: 300px;
+    }
     .product-price-btn {
       height: 63px;
       width: 287px;
-      margin-top: 17px;
+      /* margin-top: 17px; */
       position: relative;
     }
     span {
@@ -240,26 +244,16 @@ html, body {
       cursor: pointer;
       outline: none;
     }
-    .product-price-btn p {
-      display: inline-block;
-      position: absolute;
-      top: -13px;
-      height: 50px;
-      font-family: 'Trocchi', serif;
-      margin: 0 0 0 38px;
-      font-size: 10px;
-      font-weight: lighter;
-      color: #474747;
-    }
+
     .product-text h1 {
-      margin: 0 0 0 28px;
-      padding-top: 42px;
-      font-size: 24px;
+      margin: 0 0 0 28px; 
+      padding-top: 5px; 
+      font-size: 20px;
       color: #474747;
     }
     
     .product-text h2 {
-      margin: 0 0 37px 28px;
+      margin: 0 0 5px 28px;
       font-size: 8px;
       font-family: 'Raleway', sans-serif;
       font-weight: 400;
