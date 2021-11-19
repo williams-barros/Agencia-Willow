@@ -1,11 +1,11 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Registro</title>
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="CardStyle.css">
     <link rel="stylesheet" href="Contact.css">
@@ -89,26 +89,24 @@
               </ul>
             <!-- fieldsets -->
             <fieldset>
-             <h2 class="fs-title"> <strong>LOGIN</strong></h2>
+             <h2 class="fs-title"> <strong>CREA TU CUENTA</strong></h2>
               <input type="text" name="email" placeholder="E-mail"  required/>
               <input type="password" name="pass" placeholder="Contraseña" required/>
-             
+              <input type="password" name="cpass" placeholder="Confirma Contraseña" required />
             
             <br></br>
            
             <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
-            <p>¿No tienes una cuenta? <a class="link" href="registrarse.html">Registrate </a></p>
-            <input type="submit" onclick="hizoClick()" name="submit" class="submit action-button" value="ENTRAR"     />
            
-              
-
-             <script>
+              <input type="submit" onclick="hizoClick()" name="submit" class="submit action-button" value="CREAR"  />
+              <script>
                 function hizoClick() {
-                  alert("DATOS INGRESADOS CORRECTAMENTE.");
+                   
+                  alert("DATOS CARGADOS CON EXITO.");
+                  window.open('https://williams-barros.github.io/Agencia-Willow/login.html');
 
-                   window.open('https://williams-barros.github.io/Agencia-Willow/index.html');
-                   window.close()
-                 
+                  window.close()
+                  
                 }
                 </script>
             </fieldset>

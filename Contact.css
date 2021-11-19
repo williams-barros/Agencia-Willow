@@ -1,13 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-
-/*basic reset*/
 * {margin: 0; padding: 0;}
-
 html {
 	height: 100%;
-	/*Image only BG fallback*/
-	
-	/*background = gradient + image pattern combo*/
 	background: 
 		linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
 }
@@ -16,10 +10,10 @@ body {
 	font-family: montserrat, arial, verdana;
 
 }
-/*form styles*/
 #msform {
 	width: 400px;
-	margin: 50px auto;
+	margin: auto;
+	height: 800px;
 	text-align: center;
 	
 }
