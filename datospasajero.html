@@ -1,11 +1,11 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Datos Pasajeros</title>
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="CardStyle.css">
     <link rel="stylesheet" href="Contact.css">
@@ -89,28 +89,29 @@
               </ul>
             <!-- fieldsets -->
             <fieldset>
-             <h2 class="fs-title"> <strong>LOGIN</strong></h2>
-              <input type="text" name="email" placeholder="E-mail"  required/>
-              <input type="password" name="pass" placeholder="Contraseña" required/>
+             <h2 class="fs-title"> <strong>DATOS PASAJERO</strong></h2>
+              <input type="text" name="nombre" placeholder="Nombre"  required/>
+              <input type="text" name="apellido" placeholder="Apellido"  required/>
+              <input type="text" name="cid" placeholder="Documento de Identidad"  required/>
+              <input type="text" name="fnac" placeholder="Fecha de Nacimiento"  required/>
+              <input type="text" name="nacio" placeholder="Nacionalidad"  required/>
              
             
             <br></br>
            
-            <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
-            <p>¿No tienes una cuenta? <a class="link" href="registrarse.html">Registrate </a></p>
-            <input type="submit" onclick="hizoClick()" name="submit" class="submit action-button" value="ENTRAR"     />
            
-              
-
-             <script>
-                function hizoClick() {
-                  alert("DATOS INGRESADOS CORRECTAMENTE.");
-
-                   window.open('//C:/Users/Javier%20Torres/OneDrive/CURSO/UTU%202021/Dise%C3%B1o%20web/willow/index.html');
-                window.close()
+            <input type="submit" onclick="hizoClick()" name="submit" class="submit action-button" value="ACEPTAR"  />
+            <script>
+              function hizoClick() {
                  
-                }
-                </script>
+                alert("COMPRA REALIZADA CON EXITO, UN ASESOR DE VENTAS LO CONTACTARA PARA CONFIRMAR FECHAS.");
+                window.open('//C:/Users/Javier%20Torres/OneDrive/CURSO/UTU%202021/Dise%C3%B1o%20web/willow/index.html');
+                window.close()
+                  
+                
+              }
+              </script>
+          </fieldset>
             </fieldset>
           </form>
     
